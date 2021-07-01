@@ -340,10 +340,13 @@ p{
         height: 100vh;
     }
 
-    .f-arrow__down{
-        position:absolute;
-        top: 12rem;
+    .first__paragraph{
+        text-align: center;
+    }
 
+    .first__title{
+        padding: 2.6rem 0;
+        font-weight: 900;
     }
 
     .g-container__body{
