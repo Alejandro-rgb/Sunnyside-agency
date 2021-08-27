@@ -7,14 +7,16 @@ const body = document.querySelector('body')
 
 
 
-iconMenu.addEventListener('click',()=>{
+iconMenu.addEventListener('click',(e)=>{
         menu.classList.replace('menu__desktop','menu__mobile')
-    setTimeout(()=>
-        menu.classList.replace('menu__mobile','menu__desktop')
-    ,5000)
+    //     console.log(e)
+    // setTimeout(()=>
+        
+    //     menu.classList.replace('menu__mobile','menu__desktop')
+    // ,5000)
 })
 
-// iconMenu.addEventListener('click', ()=>{
-//     menu.classList.replace('menu__desktop','menu__mobile')
 
-// })
+body.addEventListener('touchstart',(e)=>{
+    menu.classList.replace('menu__mobile','menu__desktop')
+})
