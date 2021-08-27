@@ -182,6 +182,10 @@ p{
     position: relative;   
 }
 
+span{
+    cursor: pointer;
+}
+
 .learn__subrayado::before{
     content: '';
     width: 110%;
@@ -534,10 +538,11 @@ p{
        align-items: center;
        text-align:center;
        min-width: 500px;
+       min-height: 650px;
    }
 
    .container__paragraph-text{
-        height: 36%;
+        height: 26%;
         padding: 0 4em;
    }
 
